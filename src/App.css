@@ -1,0 +1,103 @@
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  font-weight: Arial, Helvetica, sans-serif;
+}
+
+.GridTableContainer{
+  padding-left: 3em;
+  padding-right: 3em;
+  margin-top: 3em;
+  overflow-x: scroll;
+}
+
+.App .textField{
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 5%;
+  width: 50%;
+  height: auto;
+  font-size: 20px;
+  padding-left: 10px;
+  margin-left: 0;
+  border-radius: 10px;
+  border: solid 2px black;
+}
+
+@media only screen and (max-width: 500px) {
+  .App .textField{
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 5%;
+    width: 100%;
+    height: auto;
+    font-size: 14px;
+    padding-left: 10px;
+    margin-left: 0;
+    border-radius: 10px;
+    border: solid 2px black;
+  }
+
+  .table, thead, tbody, th, td, tr { 
+		display: block; 
+	}
+	
+	/* Hide table headers (but not display: none;, for accessibility) */
+	thead tr { 
+		position: absolute;
+		top: -9999px;
+		left: -9999px;
+	}
+
+  thead tr th { 
+    text-align: left;
+    padding: 0px;
+  }
+	
+	tr { border: 1px solid #ccc; }
+	
+	td { 
+		/* Behave  like a "row" */
+		border: none;
+		border-bottom: 1px solid #eee; 
+		position: relative;
+    text-align: right;
+		/* padding-left: 50%;  */
+	}
+
+  tbody tr td {
+    /* display: flex;
+    flex-wrap: wrap; */
+    text-align: right;
+  }
+	
+	td:before { 
+		/* Now like a table header */
+		position: absolute;
+		/* Top/left values mimic padding */
+		top: 6px;
+		left: 6px;
+		width: 45%; 
+		/* padding-right: 10px;  */
+		white-space: nowrap;
+    text-align: left;
+
+	}
+	
+	/*
+	Label the data
+	*/
+	td:nth-of-type(1):before { content: "ID"; }
+	td:nth-of-type(2):before { content: "Designation"; }
+	td:nth-of-type(3):before { content: "First Name"; }
+	td:nth-of-type(4):before { content: "Last Name"; }
+	td:nth-of-type(5):before { content: "Phone No."; }
+	td:nth-of-type(6):before { content: "Email"; }
+	td:nth-of-type(7):before { content: "Country"; }
+	td:nth-of-type(8):before { content: "State"; }
+
+
+}

@@ -1,0 +1,93 @@
+[
+
+    {
+    "id":"E100",
+    "designation":"Full Stack Developer",
+    "firstName":"Hrishikesh",
+    "lastName":"Inamdar",
+    "phoneNumber":"502-6312661",
+    "emailAddress":"hrishi.inamdar@gmail.com",
+    "country":"USA",
+    "state":"California"
+    },
+    {
+    "id":"E200",
+    "designation":"Developer",
+    "firstName":"Aditya",
+    "lastName":"Sharma",
+    "phoneNumber":"941-4562661",
+    "emailAddress":"aditya.sharma@gmail.com",
+    "country":"USA",
+    "state":"Florida"
+    },
+    {
+    "id":"E300",
+    "designation":"QA",
+    "firstName":"Mike",
+    "lastName":"Samuel",
+    "phoneNumber":"402-6312661",
+    "emailAddress":"mike.sameul@gmail.com",
+    "country":"USA",
+    "state":"California"
+    },
+    {
+    "id":"E400",
+    "designation":"Front End Developer",
+    "firstName":"Natasha",
+    "lastName":"Puri",
+    "phoneNumber":"9011593939",
+    "emailAddress":"natash.puri@gmail.com",
+    "country":"India",
+    "state":"Maharashtra"
+    },
+    {
+    "id":"E500",
+    "designation":"Data Scientist",
+    "firstName":"Sherry",
+    "lastName":"Mann",
+    "phoneNumber":"8906312661",
+    "emailAddress":"sherry.maan@gmail.com",
+    "country":"Germany",
+    "state":"Berlin"
+    },
+    {
+    "id":"E600",
+    "designation":"Project Manager",
+    "firstName":"Amit",
+    "lastName":"KL",
+    "phoneNumber":"708-6312661",
+    "emailAddress":"amit.kl@gmail.com",
+    "country":"USA",
+    "state":"California"
+    },
+    {
+    "id":"E700",
+    "designation":"Delivery Head",
+    "firstName":"Michael",
+    "lastName":"Honnsberg",
+    "phoneNumber":"450-6312661",
+    "emailAddress":"michael.honssberg@gmail.com",
+    "country":"Germany",
+    "state":"Hamburg"
+    },
+    {
+    "id":"E800",
+    "designation":"Project Manager",
+    "firstName":"Simran",
+    "lastName":"Chadda",
+    "phoneNumber":"745-6312661",
+    "emailAddress":"simran.chadda@gmail.com",
+    "country":"India",
+    "state":"Karnataka"
+    },
+    {
+    "id":"E900",
+    "designation":"Sr. Vice President",
+    "firstName":"Ahem",
+    "lastName":"Kapoor",
+    "phoneNumber":"502-4892665",
+    "emailAddress":"ahem.kapoor@gmail.com",
+    "country":"USA",
+    "state":"California"
+    }
+]
